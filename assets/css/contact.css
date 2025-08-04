@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/pet.jpg);
+	background-size: contain;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+.contacto {
+    width: 500px;
+    height: 90%; 
+    background-color: #a3a5d598;
+    padding: 70px   34px;
+	border-radius: 30px;
+	box-shadow:   #8e90d8c2 30px 10px 15px 5px;
+}
+
+
+.contacto input,
+.contacto textarea {
+    width: 100%;  
+	height: 40px;
+	background-color: #ecececd5;
+    font-size: 16px;
+    margin-bottom: 20px;
+	margin-top: 3px;
+    border: none;
+    border-bottom: 1px solid #1a0b0b;
+	border-radius: 5px;
+    outline: none;
+    position: relative; 
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff7c48;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 40px;
+	box-shadow:   #8e90d8 1px 10px 10px 1px;
+}
+
+
+button p {
+    margin: 5px;
+}
+
+.aviso {
+    margin-top: 10px; /* Añadir un poco de espacio al aviso */
+}
+
+#mensaje { 
+	height: 100px;
+}
+

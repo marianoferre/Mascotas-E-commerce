@@ -1,0 +1,184 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #815aa76e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 110px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-family: "Knewave", system-ui;
+    
+}
+
+.nav-links a:hover {
+    background-color:  #815aa76e;
+    margin: 10px;
+    text-decoration: none;
+    color:#070706 ;
+    transition: 1.5s;
+
+}
+
+/* Bienvenida */
+.welcome {
+    
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+.welcome img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+    
+  
+
+.welcome-text h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: "Knewave", system-ui;
+    font-weight: 200;
+    
+    
+}
+
+
+.welcome-text .btn {
+    background-color: #815aa7ce;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.welcome-text .btn:hover {
+    background-color: #805aa7;
+}
+
+/* Noticias y Promociones */
+.news {
+    display: flex;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.promociones{
+    width: 40%;
+}
+
+.promociones img{
+    width: 100%;
+    height: 700px;
+}
+
+.noticias{
+    width: 40%;
+}
+
+.noticias img {
+    width: 100%;
+}
+
+
+
+.carousel {
+    width: 60%;  
+    height: 700px;
+   
+}
+
+/* Ajuste de las imágenes dentro del carrusel */
+.carousel .carousel-item img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.iconos {
+    display: flex;  
+    justify-content: space-around;   
+           
+    margin: 20px;
+               
+                  
+}
+
+/* Estilo para cada icono */
+.icon {
+    text-align: center;         
+    width: 100px;              
+    margin: 10px;
+}
+
+.icon img {
+    width: 60px;                   
+     height: auto;               
+}
+
+/* Estilo para la descripción debajo de cada icono */
+.icon p {
+    margin-top: 10px;           
+    font-size: 14px;            
+    color: #333;                
+    font-family: "Knewave", system-ui;
+    
+}
+
+footer {
+    text-align: center;           
+    padding: 20px 0;              
+    background-color: #131212;  
+    font-size: 17px;              
+    color: #fff;                 
+}
+
